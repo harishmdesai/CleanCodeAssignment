@@ -10,7 +10,7 @@ static float FUN_ADCRead_Temperature (void)
    return CNCMachineTemperatre;
 }
 
-float Fun_ReadCNCMachineTemperature (int TempValue)
+float Fun_ReadCNCMachineTemperature (void)
 {
 	float temp;
 	temp = FUN_ADCRead_Temperature();
