@@ -6,6 +6,8 @@ bool WithinALimit (float value, float Ref)
 {
   return (value<Ref);
 }
+static bool IsCNCEnvironmentFailed = FALSE;
+static bool IsCNCInternalMachineFailure = FALSE;
 
 static void CNCFUN_ValidateEnvironmentParameter(void)
 {
@@ -13,7 +15,10 @@ static void CNCFUN_ValidateEnvironmentParameter(void)
   {
     /*Failure of Environment*/
     /* Illuminate ENV LED*/
+    IsCNCEnvironmentFailed = TRUE;
   }
+  else
+    IsCNCEnvironmentFailed = FALSE;
 }
 static void CNCFUN_ValidateMachineParamenter(void)
 {
@@ -21,7 +26,10 @@ static void CNCFUN_ValidateMachineParamenter(void)
   {
     /*Failure within internal*/
     /* Illuminate Internal failure LED*/
+    IsCNCInternalMachineFailure = TRUE;
   }
+  else
+    IsCNCInternalMachineFailure = FALSE;
 
 }
 
