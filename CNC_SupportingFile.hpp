@@ -4,6 +4,9 @@
 #define TRUE 01
 #define FALSE 00
 
-#define WithinALimit (value, Ref) (value<Ref)
+bool WithinALimit (float value, float Ref)
+{
+  return (value<Ref)
+}
 
 #endif
