@@ -1,4 +1,4 @@
-#include "CNN_DurationMonitoring.hpp"
+#include "CNC_DurationMonitoring.hpp"
 
 #define AllowedDuration 360  // in Minutes
 
