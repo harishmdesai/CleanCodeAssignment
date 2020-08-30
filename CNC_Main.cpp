@@ -1,4 +1,4 @@
-#include "CNN_TemperatureRead.hpp"
+#include "CNC_TemperatureRead.hpp"
 #include "CNC_SupportingFile.hpp"
 
 
