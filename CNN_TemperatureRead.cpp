@@ -1,4 +1,4 @@
-#include "CNN_TemperatureRead.h"
+#include "CNN_TemperatureRead.hpp"
 
 float CNCMachineTemperatre;
 
