@@ -1,5 +1,6 @@
 #include "CNC_SupportingFile.hpp"
 #include "CNC_Main.hpp"
+#include "CNC_SelfTest.hpp"
 
 bool WithinALimit (float value, float Ref)
 {
