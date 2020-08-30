@@ -4,6 +4,6 @@
 #define TRUE 01
 #define FALSE 00
 
-#define WithinALimit (value, Ref) (Val<Ref)
+#define WithinALimit (value, Ref) (value<Ref)
 
 #endif
