@@ -17,18 +17,12 @@ static void CNCFUN_ValidateEnvironmentParameter(void)
 }
 static void CNCFUN_ValidateMachineParamenter(void)
 {
-  if(!Fun_IsDiamentioninRange())
+  if((!Fun_IsDiamentioninRange()) || (FUN_ReadSelfTestStatus()))
   {
     /*Failure within internal*/
     /* Illuminate Internal failure LED*/
   }
-  else if (FUN_ReadSelfTestStatus()!=AllOk)
-     {
-       
-     }
-     else
-     {
-     }
+
 }
 
 int main(void)
