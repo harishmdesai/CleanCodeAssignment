@@ -22,8 +22,8 @@ jobs:
             cp -a include/gtest /usr/include  
             cp *.a /usr/lib
       - run:
-          name: Install ccheck
-          command: 'apt-get update && apt-get install -y ccheck'
+          name: Install cppcheck
+          command: 'apt-get update && apt-get install -y cppcheck'
       - run:
           name: Install pip
           command: 'apt-get update && apt-get install -y python-pip'
@@ -35,7 +35,7 @@ jobs:
           command: 'make'
       - run:
           name: Static Analysis
-          command: 'ccheck --enable=all --error-exitcode=1 .'
+          command: 'cppcheck --enable=all --error-exitcode=1 .'
       - run:
           name: Cyclomatic Complexity Check
           command: 'lizard --CCN 5'
