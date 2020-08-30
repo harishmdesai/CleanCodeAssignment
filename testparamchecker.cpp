@@ -11,7 +11,7 @@
 
 
 TEST(StatusCode, Empty) { 
-    ASSERT_EQ(TRUE, TRUE));
+    ASSERT_EQ(TRUE, TRUE);
 }
 
 int main(int argc, char **argv) {
