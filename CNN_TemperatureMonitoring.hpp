@@ -2,6 +2,7 @@
 #define CNN_TEMPERATUREMONITORING_H__
 
 #include "CNC_SupportingFile.hpp"
+#include "#inlcude "CNN_TemperatureRead.hpp""
 
 extern bool Fun_IsTemperatureinRange(void);
 
