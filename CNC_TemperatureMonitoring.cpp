@@ -1,4 +1,4 @@
-#include "CNN_TemperatureMonitoring.hpp"
+#include "CNC_TemperatureMonitoring.hpp"
 
 /*In Degree centgrade*/
 #define AllowedTemp 35
