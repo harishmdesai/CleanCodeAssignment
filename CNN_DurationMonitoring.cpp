@@ -5,9 +5,9 @@
 bool Fun_IsDurationinRange(void)
 {
 	bool IsDurationInRange = FALSE;
-	float IsDurationInRange;
-	IsDurationInRange = Fun_ReadCNCMachineDiamention();
-	if(WithinALimit(AllowedDuration, IsDurationInRange))
+	float ReadDuration;
+	ReadDuration = Fun_ReadCNCMachineDiamention();
+	if(WithinALimit(AllowedDuration, ReadDuration))
 	{
 		IsDurationInRange = TRUE;
 	}
