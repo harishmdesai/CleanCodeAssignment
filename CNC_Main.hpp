@@ -1,5 +1,5 @@
-#ifndef CNC_MAINHPP__
-#define CNC_MAINHPP__
+#ifndef CNC_MAIN_HPP__
+#define CNC_MAIN_HPP__
 
 typedef enum
 {
