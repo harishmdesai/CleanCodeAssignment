@@ -12,6 +12,6 @@ typedef enum
 }CNCSelfTestStatus;
 
 extern CNCSelfTestStatus CNC_SelfTestStatus;
-extern CNCSelfTestStatus Fun_ReadSelfTestStatus(void);
+extern bool Fun_ReadSelfTestStatus(void);
 
 #endif
