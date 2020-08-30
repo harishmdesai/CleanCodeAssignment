@@ -1,8 +1,8 @@
-#ifndef CNC_SELFTEST_HPP__
-#define CNC_SELFTEST_HPP__
+#ifndef CNCSELFTEST_HPP__
+#define CNCSELFTEST_HPP__
 
 #include "CNC_SupportingFile.hpp"
-
+extern bool Fun_ReadSelfTestStatus(void);
 typedef enum
 {
 	AllOk = 0xFF,
@@ -12,6 +12,6 @@ typedef enum
 }CNCSelfTestStatus;
 
 extern CNCSelfTestStatus CNC_SelfTestStatus;
-extern bool Fun_ReadSelfTestStatus(void);
+
 
 #endif
