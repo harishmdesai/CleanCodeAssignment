@@ -1,20 +1,20 @@
 #include "CNC_SelfTest.hpp"
 
-CNCSelfTestStatus CNCSelfTestStatus;
+CNCSelfTestStatus CNC_SelfTestStatus;
 
 bool FUN_ReadSelfTestStatus(void)
 {
 bool Deviation = FALSE;
-	if(CNCSelfTestStatus == 0xFF)
+	if(CNC_SelfTestStatus == 0xFF)
 	{
 		Deviation = FALSE;
 	}
-	else if (CNCSelfTestStatus == 0x00)
+	else if (CNC_SelfTestStatus == 0x00)
 	{
   /*No data found*/
 		Deviation = TRUE;
 	}
-	else if (CNCSelfTestStatus == 0x01)
+	else if (CNC_SelfTestStatus == 0x01)
 	{
   /*Controller board not okay*/
 		Deviation = TRUE;
