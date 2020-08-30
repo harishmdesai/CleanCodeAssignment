@@ -1,6 +1,8 @@
 #ifndef CNC_SELFTEST_HPP__
 #define CNC_SELFTEST_HPP__
 
+#define "CNC_SupportingFile.hpp"
+
 typedef enum
 {
 	AllOk = 0xFF;
