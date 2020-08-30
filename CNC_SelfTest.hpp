@@ -5,10 +5,10 @@
 
 typedef enum
 {
-	AllOk = 0xFF;
-	NoData = 0x00;
-	ContBoardNOK = 0x01;
-	ConfigDataNOK = 0x02;
+	AllOk = 0xFF,
+	NoData = 0x00,
+	ContBoardNOK = 0x01,
+	ConfigDataNOK = 0x02
 }CNCSelfTestStatus;
 
 extern CNCSelfTestStatus Fun_ReadSelfTestStatus(void);
