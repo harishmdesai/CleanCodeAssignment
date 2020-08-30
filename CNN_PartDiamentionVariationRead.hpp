@@ -1,7 +1,7 @@
-#ifndef CNN_DIAMENTIONMONITORING_H__
-#define CNN_DIAMENTIONMONITORING_H__
-#include "CNC_SupportingFile.hpp"
+#ifndef CNN_PARTDIAMENTIONVARIATIONREAD_H__
+#define CNN_PARTDIAMENTIONVARIATIONREAD_H__
 
-extern bool Fun_IsDiamentioninRange(void);
+extern float CNCPartDiamentionVariationValue;
+extern float Fun_ReadCNCMachineDiamention (void);
 
 #endif
