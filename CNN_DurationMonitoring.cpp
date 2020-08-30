@@ -1,4 +1,5 @@
 #include "CNN_DurationMonitoring.hpp"
+#include "CNN_ReadOperationDuration.hpp"
 
 #define AllowedDuration 360  // in Minutes
 
