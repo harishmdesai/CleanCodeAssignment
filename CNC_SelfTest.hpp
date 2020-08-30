@@ -11,6 +11,7 @@ typedef enum
 	ConfigDataNOK = 0x02
 }CNCSelfTestStatus;
 
+extern CNCSelfTestStatus CNC_SelfTestStatus;
 extern CNCSelfTestStatus Fun_ReadSelfTestStatus(void);
 
 #endif
