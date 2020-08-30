@@ -1,30 +1,13 @@
 #ifndef CNCMAIN_HPP__
 #define CNCMAIN_HPP__
 
-typedef enum
-{
-	CNCSelfTest,
-	CNCTempMon,
-	CNCDiamMon,
-	CNCDuration,
-	CNCListOfMOn
-}CNCListOfMOn;
-
-typedef enum
-{
-	CNC_AllOk,
-	CNC_MachineAlert,
-	CNC_Env_Alert,
-	CNC_MachineandEnvAlert
-}CNC_DiagAlert;
-
-typedef struct
-{
-	CNCSelfTestStatus SelfTest;
-  float temp;
-	float Diam;
-  float Duraion;
-}CNCParameter;
+#include "CNC_DiamentionMonitoring.hpp"
+#include "CNC_DurationMonitoring.hpp"
+#include "CNC_SelfTest.hpp"
+#include "CNC_PartDiamentionVariationRead.hpp"
+#include "CNC_ReadOperationDuration.hpp"
+#include "CNC_TemperatureMonitoring.hpp"
+#include "CNC_TemperatureRead.hpp"
 
 
 #endif
