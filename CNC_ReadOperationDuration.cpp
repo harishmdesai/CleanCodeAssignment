@@ -1,4 +1,4 @@
-#include "CNN_ReadOperationDuration.hpp"
+#include "CNC_ReadOperationDuration.hpp"
 
 float CNCDurationOfCNCMachineOperation;
 
