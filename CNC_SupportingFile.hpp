@@ -3,6 +3,7 @@
 
 #define TRUE 01
 #define FALSE 00
+extern bool WithinALimit (float value, float Ref);
 
 bool WithinALimit (float value, float Ref)
 {
