@@ -1,4 +1,4 @@
-#include "CNN_DiamentionMonitoring.hpp"
+#include "CNC_DiamentionMonitoring.hpp"
 
 #define AllowedDiam 0.05 //in mm
 
