@@ -1,4 +1,4 @@
-#include "CNN_PartDiamentionVariationRead.hpp"
+#include "CNC_PartDiamentionVariationRead.hpp"
 
 float CNCPartDiamentionVariationValue;
 
