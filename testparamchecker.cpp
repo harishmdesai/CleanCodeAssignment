@@ -5,7 +5,7 @@ float T_CNCPartDiamentionVariationValue = 0.01;
 
 
 TEST(StatusCode, Empty) { 
-    ASSERT_EQ(SetDiamentionforTest(T_CNCPartDiamentionVariationValue), true);
+    ASSERT_EQ(SetDiamentionforTest(0.01), true);
 }
 
 int main(int argc, char **argv) {
