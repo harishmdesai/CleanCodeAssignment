@@ -4,7 +4,7 @@ float CNCPartDiamentionVariationValue;
 
 /*ADC Read value*/
 /*Resolution can be changed based on teh requirment*/
-static float FUN_ADCRead_DiamentionVariation (float Value)
+float FUN_ADCRead_DiamentionVariation (float Value)
 { 
    return CNCPartDiamentionVariationValue = Value;
 }
