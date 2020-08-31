@@ -2,7 +2,7 @@
 #define CNC_PARTDIAMENTIONVARIATIONREAD_H__
 
 extern float CNCPartDiamentionVariationValue;
-extern float FUN_ADCRead_DiamentionVariation (float Value);
+extern void SetDiamentionforTest(float value);
 extern float Fun_ReadCNCMachineDiamention (void);
 
 #endif
