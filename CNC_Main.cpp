@@ -33,7 +33,7 @@ static void CNCFUN_ValidateMachineParamenter(void)
 
 }
 
-int main(void)
+int Process_MainCall(void)
 {
   CNCFUN_ValidateEnvironmentParameter();
   CNCFUN_ValidateMachineParamenter();
