@@ -1,12 +1,17 @@
 #include "CNC_PartDiamentionVariationRead.hpp"
 
 float CNCPartDiamentionVariationValue;
+/*Interface for test*/
+void SetDiamentionforTest(float value)
+{
+    CNCPartDiamentionVariationValue = value;
+}
 
 /*ADC Read value*/
 /*Resolution can be changed based on teh requirment*/
-float FUN_ADCRead_DiamentionVariation (float Value)
+static float FUN_ADCRead_DiamentionVariation (void)
 { 
-   return CNCPartDiamentionVariationValue = Value;
+   return CNCPartDiamentionVariationValue;
 }
 
 float Fun_ReadCNCMachineDiamention (void)
