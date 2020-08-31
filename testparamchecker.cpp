@@ -6,7 +6,7 @@
 #include "CNC_TemperatureMonitoring.hpp"
 #include "CNC_TemperatureRead.hpp"
 #include "CNC_SupportingFile.hpp"
-#include "CNC_Main.hpp"
+
 #include <gtest/gtest.h>
 
 
