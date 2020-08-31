@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "CNC_DiamentionMonitoring.hpp"
 #include "CNC_PartDiamentionVariationRead.hpp"
-CNCPartDiamentionVariationValue = 0.01;
+float CNCPartDiamentionVariationValue = 0.01;
 
 
 TEST(StatusCode, Empty) { 
