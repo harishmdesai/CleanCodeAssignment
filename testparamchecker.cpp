@@ -3,9 +3,9 @@
 #include "CNC_PartDiamentionVariationRead.hpp"
 float T_CNCPartDiamentionVariationValue = 0.01;
 
-
+SetDiamentionforTest(0.01);
 TEST(StatusCode, Empty) { 
-    ASSERT_EQ(SetDiamentionforTest(0.01), true);
+    ASSERT_EQ(Fun_IsDiamentioninRange(), true);
 }
 
 int main(int argc, char **argv) {
